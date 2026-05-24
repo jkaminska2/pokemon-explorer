@@ -2,6 +2,8 @@
 
 Simple React + TypeScript app to browse Pokémon by type using PokeAPI.
 
+https://jkaminska2.github.io/pokemon-explorer/
+
 Tech:
 - Vite + React + TypeScript
 - Tailwind CSS
@@ -31,7 +33,7 @@ npm run preview
 Features:
 - Explore Pokémon list with cards showing sprite, name, number and type pills.
 - Type color backgrounds and smooth gradients for dual-types.
-- Multi-select type filters and search with debounce.
+- Multi-select type filters.
 - Load more pagination (24 per page).
 - Modal with Pokémon details: sprites gallery, evolution chain and encounter locations.
 
