@@ -16,8 +16,8 @@ export default function PokemonCard({ pokemon, onOpen }: Props) {
   return (
     <button
       onClick={() => onOpen?.(pokemon.id)}
-      className="relative overflow-hidden rounded-[2rem] p-8 min-h-[280px] hover:scale-[1.01] transition-transform focus:outline-none shadow-2xl w-full"
-      style={{ background: bg, minWidth: '420px' }}
+      className="relative overflow-hidden rounded-[2rem] p-6 sm:p-8 min-h-[260px] hover:scale-[1.01] transition-transform focus:outline-none shadow-2xl w-full max-w-[500px] lg:max-w-[700px] mx-auto"
+      style={{ background: bg}}
       aria-label={`Open details for ${pokemon.name}`}
     >
       <div className="absolute -right-6 -top-6 h-40 w-40 rounded-full bg-white/10 blur-2xl" />

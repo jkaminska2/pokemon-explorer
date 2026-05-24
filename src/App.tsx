@@ -45,7 +45,7 @@ export default function App() {
     <div className="min-h-screen">
       <Header search={search} setSearch={setSearch} />
 
-      <main className="max-w-screen-2xl mx-auto p-6">
+      <main className="max-w-7xl mx-auto p-4 sm:p-6">
 
         <div className="flex gap-3 flex-wrap justify-center mb-6">
           {types.map((t) => {
@@ -73,7 +73,7 @@ export default function App() {
           })}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {all.length > 0 ? (
             all.map((p: any) => (
               <PokemonCard
